@@ -1,0 +1,123 @@
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+<nav class="navbar sticky-top navbar-expand-lg bg-light">
+    <div class="container-fluid w-auto ">
+
+      <a class="navbar-brand" href="#">Navbar</a>
+
+      <form class="d-flex" role="search">
+        <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active"  href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mobile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  ">Computer</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+
+
+
+
+  
+:root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+
+
+}
+
+*{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+ }
+ html{
+    font-size: 70.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+ }
+ 
+ 
+.container-fluid{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    padding: 10px;
+    gap:50px;
+}
+
+.navbar-brand{
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bolder;
+   
+}
+.navbar-brand i{
+    color: var(--green);
+}
+.navbar{
+     background: #fff;
+    border-top: .1rem solid rgba(0,0,0,.2);
+    border-bottom: .1rem solid rgba(0,0,0,.2);
+}
+.navbar a{
+    font-size: 1.2rem;
+    border-radius: .7rem;
+    padding: 4px 20px;
+    margin:0px 3px 0 3px;
+    color: var(--light-color);
+    text-decoration: none; 
+}
+.navbar a.active,
+.navbar a:hover{
+    color:#fff;
+    background-color: #27ae60;
+}
+.nav-item a{
+    border: .3px solid #666;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+}
