@@ -1,16 +1,24 @@
 {
-  "name": "scss-project",
+  "name": "mobile-price",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# mobile-price\"",
   "main": "index.js",
   "scripts": {
-    "dev": "sass --watch scss/index.scss css/style.css"
+    "dev":"sass --watch scss/index.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrfahimm/mobile-price.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrfahimm/mobile-price/issues"
+  },
+  "homepage": "https://github.com/hrfahimm/mobile-price#readme",
   "dependencies": {
-    "bootstrap": "^5.2.0",
-    "sass": "^1.54.4"
+    "bootstrap": "^5.2.3",
+    "sass": "^1.58.0"
   }
 }

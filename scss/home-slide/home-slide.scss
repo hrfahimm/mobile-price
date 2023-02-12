@@ -1,0 +1,43 @@
+
+.home{
+    .home-slider{
+        .slide{
+            display: flex;
+            /* flex-wrap: wrap; */
+            gap: 2rem;
+            padding-top: 5rem;
+            overflow: hidden;
+            .content{
+                flex:1 1 45rem; 
+                span{
+                    color: var(--green);
+                    font-size: 2.5rem;
+                }
+                h3{
+                    color: var(--black);
+                    font-size: 7rem;
+                }
+                p{
+                    color: var(--light-color);
+                    font-size: 2.2rem;
+                    padding: .5rem 0;
+                    line-height: 1.5;
+                  
+                }          
+            }
+            .images{
+                flex:1 1 45rem;
+                img{
+                    width: 100%;
+                }
+            }  
+          }
+    }
+}
+  
+
+  .swiper-pagination-bullet-active{
+    background: var(--green);
+  
+  }
+  
