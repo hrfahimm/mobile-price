@@ -21,15 +21,13 @@
     overflow-x: hidden;
     scroll-padding-top: 5.5rem;
     scroll-behavior: smooth;
-    
   }
   section{
     padding: 2rem 9%;
     overflow: hidden!important;
   }
   section:nth-child(even){
-    background: #fff;
-     
+    background: #fff; 
   }
   
   
@@ -94,11 +92,11 @@
     color: var(--green);
   }
   header .navbar{
-    gap: 5px;
+    gap:1.5rem;
   }
   header .navbar a{
     font-size: 1.2rem;
-    border-radius: .7rem;
+    border-radius: .5rem;
     padding: .5rem 1.5rem;
     color: var(--light-color);
     text-decoration: none; 
